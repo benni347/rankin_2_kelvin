@@ -14,6 +14,6 @@ def rankine_too_kelvin(temperature_function_param: float) -> str:
     return f"{round(temperature_function_param * (5/9), 2)} K"
 
 if __name__ == "__main__":
-    temperature = float(input("Please input the temperature in rankin only the int: "))
+    temperature = float(input("Please input the temperature in rankin only the float: "))
     temperature = rankine_too_kelvin(temperature)
     print(temperature)
